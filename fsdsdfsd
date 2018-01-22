@@ -1,0 +1,193 @@
+[33mcommit d0870c26894fa424a714e405c2e7da0221a737e3[m[33m ([m[1;36mHEAD -> [m[1;32mpull-request-demo[m[33m, [m[1;31morigin/pull-request-demo[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Heo Young Moo <huyangmoo@hanmail.net>
+Date:   Sun Jan 21 16:19:51 2018 +0900
+
+    180121_meeting report
+
+[33mcommit 717e4de5f3b4b37e948946a9733d283cf1e67462[m
+Author: choi won jae <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:58:17 2018 +0900
+
+    fix bugs
+
+[33mcommit 8a95cf8fad5a9fee85916564acdb17eb15561edc[m
+Author: choi won jae <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:53:44 2018 +0900
+
+    초기화
+
+[33mcommit 36033da2ce3dad5f48c9c6d4198ed239d26c3e90[m
+Merge: 78f35c4 35db536
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:47:45 2018 +0900
+
+    Merge pull request #6 from liabaek/master
+    
+    file update
+
+[33mcommit 35db5360f1c5bca9bfde3abb18bb3471814ba368[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:46:58 2018 +0900
+
+    deleted
+
+[33mcommit fc6cf6b42ede05e80c82efa54aad928ac49114c9[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:45:04 2018 +0900
+
+    modified
+
+[33mcommit afc7cc6b22cec868d1535807aa8a3e54d254444d[m
+Merge: 9c15933 78f35c4
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:41:30 2018 +0900
+
+    Merge branch 'master' of https://github.com/choiwj1012/play-projectjr
+
+[33mcommit 9c15933fe131d89de4e2b4ea36131e7684630d3a[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:38:50 2018 +0900
+
+    file update
+
+[33mcommit 78f35c4e118dda4bc03678eefe22db3cfac35269[m
+Merge: dc2458c a4c0a97
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:31:29 2018 +0900
+
+    Merge pull request #5 from liabaek/master
+    
+    test again
+
+[33mcommit 04a188d762c7df523f539fb874252ba42ec38f68[m
+Merge: a4c0a97 dc2458c
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:28:09 2018 +0900
+
+    Merge branch 'master' of https://github.com/choiwj1012/play-projectjr
+
+[33mcommit dc2458c087ff9d7b5bc1658ed1661557a5956bd0[m
+Merge: d1239c4 7336b0a
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:22:53 2018 +0900
+
+    Merge pull request #4 from ranysad/master
+    
+    Leo_git test
+
+[33mcommit d1239c41b0390a56a44ada91a78b3b1a6deef1bb[m
+Merge: 7df0b8a a8725b0
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:22:45 2018 +0900
+
+    Merge pull request #3 from ymheo/master
+    
+    허영무 git test
+
+[33mcommit a4c0a97e242e3e5e6ced56ffed25253a090410a7[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:22:29 2018 +0900
+
+    test again
+
+[33mcommit 7df0b8a1cc2f1e3e2bca00c9ea8ceedd86586803[m
+Merge: 7d4ec0a 05902ee
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:22:27 2018 +0900
+
+    Merge pull request #2 from skyshop300/master
+    
+    성용 git Test
+
+[33mcommit 7d4ec0ae4c61be92a6504b6af47beaa551ee99ff[m
+Merge: 2adaa47 e896dd9
+Author: WonJae Choi <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 15:21:49 2018 +0900
+
+    Merge pull request #1 from liabaek/master
+    
+    잘 받았다 요놈!
+
+[33mcommit e896dd972a713f4e7c909c14af6efa69191afa49[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:16:49 2018 +0900
+
+    test file deleted
+
+[33mcommit 1100921aef3c6c347d8504fb6211d73b3cc8aa3d[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:15:38 2018 +0900
+
+    test file deleted
+
+[33mcommit 0bf02df4878e9a453c574d7c0016e45e896dca07[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:14:09 2018 +0900
+
+    soyeon_test
+
+[33mcommit cd324f774b9a97f78af18e769231f108f4388665[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:12:33 2018 +0900
+
+    soyeon git test4
+
+[33mcommit 704820b58bf4144a7369942ecc1e79470bc1a49c[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:11:16 2018 +0900
+
+    soyeon git test3
+
+[33mcommit a835452daf80e74db17fccc8b095851a242a0546[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 15:08:58 2018 +0900
+
+    soyeon git test2
+
+[33mcommit a8725b0bd59cfbcfe74788920b5ae895b5d2cd8d[m
+Author: Heo Young Moo <huyangmoo@hanmail.net>
+Date:   Sun Jan 21 14:58:07 2018 +0900
+
+    허영무 git test
+
+[33mcommit 7336b0ace5fccffe876730b8ee180426c75390d5[m
+Author: ranysad <ranysad@nate.com>
+Date:   Sun Jan 21 14:57:38 2018 +0900
+
+    Leo_git test
+
+[33mcommit 05902ee4bcf1733836515b957ba35e78591a538f[m
+Author: skyshop300 <skyshop5210@gmail.com>
+Date:   Sun Jan 21 14:57:01 2018 +0900
+
+    성용 git Test
+
+[33mcommit 9336430461645ef9b17d0db0b78ee5c92e14839d[m
+Author: Baek So Yeon <thdus1287@naver.com>
+Date:   Sun Jan 21 14:56:33 2018 +0900
+
+    soyeon git test
+
+[33mcommit 2adaa479afa1e43d61d75c632ba4ce703fabf2cc[m
+Author: choi won jae <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 14:32:04 2018 +0900
+
+    test
+    
+    test
+
+[33mcommit 918927f4b7679e3c51aa50e76b54f78e1057be48[m
+Author: choi won jae <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 14:08:14 2018 +0900
+
+    test
+    
+    test
+
+[33mcommit fe761f88bbc2275da2e2c326a50a8551c1c9fa81[m
+Author: choi won jae <choiwj1012@hanmail.net>
+Date:   Sun Jan 21 13:52:36 2018 +0900
+
+    first commit
+    
+    First commit
