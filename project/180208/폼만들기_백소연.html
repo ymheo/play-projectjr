@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>폼만들기</title>
+</head>
+<body>
+
+<header> <!--이것이 바로 주석을 다는 방법, 나만 볼 수 있다 -->
+  <h1> <!--이 태그는 제목 입니다-->
+    <a href="travel.png" download><img src="travel.png" alt=""></a>
+  </h1>
+  <nav> <!--이 태그는 메뉴입니다-->
+    <ul>
+      <li><a href="http://www.naver.com" target="_blank">Naver</a></li> <!--target을 넣으면 새로운 창이 열립니다-->
+      <li><a href="http://www.daum.net">Daum</a></li> <!--target을 안넣으면 원래 창에서 페이지만 바뀝니다-->
+      <li><a href="http://playdata.io" target="_blank">Playdata</a></li>
+    </ul>
+  </nav>
+</header>
+
+<Section>
+  <article>
+
+    <form action=""> <!--form은 설문조사 같이 체크란 과 같이 나오는 것을 만들 때 쓰는 태그입니다-->
+      <input type="text" title="search">
+      <input type="submit" title="search"> <!--form과 input은 세트이다-->
+    </form>
+
+    <form action="">
+      <label for="id이름">
+        <input type="text" title="id이름">
+      </label>
+    </form>
+
+    <form action="">
+      <ul>
+        <li>
+          <label for="id">아이디 : <input type="text" id="id" maxlength="8"></label> <!--text로 지정하면 글자로 나온다-->
+        </li>
+        <li>
+          <label for="pwd">비밀번호 : <input type="password" id="pwd" maxlength="6"></label> <!--password로 지정하면 검정동그라미로 나온다-->
+        </li>
+        <li>
+          <input type="submit" title="로그인" value="로그인할래요?">
+        </li>
+      </ul>
+    </form>
+
+
+    <form action=""> <!--radio는 동그라미 선택 버튼으로,그룹으로 묶어주는 것이 필수이며 다중선택은 불가능하다-->
+      <ul>
+        <li>
+          <label for="iot"><input type="radio" name="subject" id="iot">사물인터넷</label>
+        </li>
+        <li>
+          <label for="bigdata"><input type="radio" name="subject" id="bigdata">빅데이터</label>
+        </li>
+        <li>
+          <label for="deep"><input type="radio" name="subject" id="deep">딥러닝</label>
+        </li>
+        <li>
+          <label for="R"><input type="radio" name="subject" id="R">R프로그래밍</label>
+        </li>
+        <li>
+          <label for="SQL"><input type="radio" name="subject" id="SQL">SQL</label>
+        </li>
+      </ul>
+    </form>
+
+    <form action=""> <!--label을 넣으면 체크박스가 아닌 글씨를 눌러도 체크가 가능합니다-->
+      <ul> <!--체크박스는 다중선택이 가능합니다-->
+        <li>
+          <label for=""><input type="checkbox" value="facebook">페이스북 광고</label>
+        </li>
+        <li>
+          <label for=""><input type="checkbox" value="homepage">홈페이지</label>
+        </li>
+        <li>
+          <label for=""><input type="checkbox" value="dator">데이토</label>
+        </li>
+        <li>
+          <label for=""><input type="email">이메일</label>
+        </li>
+        <li>
+          <label for=""><input type="file">첨부파일을 넣으세요</label>
+        </li>
+      </ul>
+    </form>
+
+    <textarea name="name" row="5" cols="5"></textarea>
+
+  </article>
+</Section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
