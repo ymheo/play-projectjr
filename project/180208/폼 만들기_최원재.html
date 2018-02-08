@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>폼만들기</title>
+  <style>
+    ul{
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header> <!-- 이렇게 주석을 답니다 -->
+    <h1><!-- 이 코드에는 로그를 넣으세요 -->
+      <a href="image/girl.jpg" download><img src="image/girl.jpg" alt=""></a>
+    </h1>
+    <nav><!-- 이 코드는 메뉴에요 -->
+      <ul>
+        <li><a href="http://www.naver.com" target="_blank">naver</a></li>
+        <li><a href="http://www.daum.net" target="_blank">daum</a></li>
+        <li><a href="http://playdata.io" target="_blank">playdata</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section> <!-- 이 코드 부터는 콘텐츠에요 -->
+    <article>
+<img src="image/girl.jpg" alt="">
+
+
+      <form action="">
+        <input type="text" title="검색">
+        <input type="submit" value="검색">
+      </form>
+      <br>
+
+      <form action="">
+        <ul>
+          <li>
+            <label for="id">아이디 : <input type="text" id="id" maxlength="4" autofocus required></label>
+          </li>
+          <li>
+            <label for="pwd">비밀번호 : <input type="password" id="pwd" required></label>
+          </li>
+          <li>
+            <input type="submit" title="로그인" value="로그인">
+          </li>
+        </ul>
+      </form>
+
+      <form action="input.jsp" method="post">
+        <ul>
+          <li><label for="iot"><input type="radio" name="subject" id="iot">사물인터넷</label></li>
+          <li><label for="bigdata"><input type="radio" name="subject" id="bigdata">빅데이터</label></li>
+          <li><label for="deeplearning"><input type="radio" name="subject" id="deeplearning">딥러닝</label></li>
+          <li><label for="r"><input type="radio" name="subject" id="r">알</label></li>
+          <li><label for="java"><input type="radio" name="subject" id="java">자바</label></li>
+        </ul>
+      </form>
+
+      <form action="submit.jsp" method="post">
+        <ul>
+          <li><label for=""><input type="checkbox" value="facebook">페이스북 광고</label></li>
+          <li><label for=""><input type="checkbox" value="naver_blog">네이버 블로그</label></li>
+          <li><label for=""><input type="checkbox" value="email">이메일</label></li>
+          <li><label for=""><input type="email">이메일</label></li>
+          <li><label for=""><input type="file">첨부파일을 넣으세요</label></li>
+          <li><input type="submit">제출하기</li>
+        </ul>
+      </form>
+
+      <select name="" id="">
+        <option value="">가가가</option>
+        <option value="">나나나</option>
+      </select>
+
+      <form action="">
+        <textarea name="name" rows="2" cols="2"></textarea>
+        <input type="submit" value="제출하기">
+      </form>
+
+
+    </article>
+    <article>
+
+
+    </article>
+  </section>
+
+  <footer>
+
+
+  </footer>
+
+</body>
+</html>
