@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>프론트엔드 개발자 지원서</title>
+  <style>
+
+    h1{
+      text-align: center;
+    }
+
+    header>p{
+      text-align: center;
+    }
+
+    ul{
+      list-style: none;
+    }
+
+    table{
+      border-collapse: collapse;
+      width:50%;
+      text-align: center;
+    }
+
+    table, th, td{
+      border : 1px solid black;
+    }
+
+    thead{
+      background-color: green;
+      color:white;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- header start -->
+  <header>
+    <h1>프론트엔드 개발자 지원서</h1>
+    <p>(주)엔코아에서 HTML5, CSS3, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+  </header><!-- header end -->
+
+  <!-- section start -->
+  <section>
+    <article>
+
+      <!-- 개인정보, 지원분야, 지원동기 입력 폼 end -->
+      <form action="" method="post">
+        <!-- 개인정보 입력 -->
+        <p><b>개인정보</b></p>
+        <label for="name">이름 : <input type="text" id="name"></label>
+        <label for="tel">연락처 : <input type="tel" id="tel"></label>
+
+        <!-- 지원분야 선택 -->
+        <p><b>지원분야</b></p>
+        <ul>
+          <li><label for=""><input type="radio" name="area" checked> 웹 퍼블리싱</label></li>
+          <li><label for=""><input type="radio" name="area"> 웹 어플리케이션 개발</label></li>
+          <li><label for=""><input type="radio" name="area"> 개발 환경 개선</label></li>
+        </ul>
+
+        <!-- 지원동기 입력 -->
+        <p><b>지원동기</b></p>
+        <textarea name="name" rows="8" cols="80" placeholder="이곳에 지원동기를 입력하세요"></textarea><br>
+        <input type="submit" value="접수하기">
+        <input type="submit" value="다시쓰기">
+      </form> <!-- 개인정보, 지원분야, 지원동기 입력 폼 end -->
+
+      <!-- 교육내용 정보 start -->
+      <p><b>교육내용</b></p>
+      <table>
+        <thead>
+          <tr>
+            <td>구분</td>
+            <td>언어명</td>
+            <td>금액</td>
+            <td>강사</td>
+            <td>비고</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4">Frontend</td>
+            <td>HTML5</td>
+            <td rowspan="2">30,000</td>
+            <td rowspan="3">최원재</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td rowspan="2">50,000</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>jQuery</td>
+            <td>백소연</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td rowspan="4">Backend</td>
+            <td>Java</td>
+            <td>100,000</td>
+            <td rowspan="2">김창운</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Node.js</td>
+            <td>200,000</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>PHP</td>
+            <td rowspan="2">80,000</td>
+            <td rowspan="2">허영무</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table> <!-- 교육내용 정보 end -->
+
+    </article>
+  </section><!-- section start -->
+
+  <!-- footer start -->
+  <footer>
+
+  </footer><!-- footer end -->
+
+</body>
+</html>
