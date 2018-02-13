@@ -4,42 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="fontstyle.css">
   <title>프론트엔드 개발자 지원서</title>
-  <style>
-
-    h1{
-      text-align: center; /* 글자의 위치를 가운데로 정렬 */
-    }
-
-    header>p{
-      text-align: center; /* 글자의 위치를 가운데로 정렬 */
-    }
-
-    ul{
-      list-style: none; /* li 태그의 bullet 기호를 없애줌 */
-    }
-
-    table{
-      border-collapse: collapse; /* 테이블의 이중선을 없애줌 */
-      width:50%; /* 가로 크기를 화면의 50%로 맞추어줌 */
-      text-align: center; /* 글자의 위치를 가운데로 정렬 */
-    }
-
-    table, th, td{
-      border : 1px solid black; /* 테이블의 테두리선을 1px, 직선, 검은색으로 그림 */
-    }
-
-    thead{
-      background-color: green; /* thead 태그 내 배경을 초록색으로 변경 */
-      color:white; /* 글자색을 흰색으로 변경 */
-    }
-
-  </style>
 </head>
 <body>
   <!-- header start -->
-  <header>
-    <h1>프론트엔드 개발자 지원서</h1>
+  <header class="fontstyle" style="font-size:30px;">
+    <h1 id="header_contents">프론트엔드 개발자 지원서</h1>
+    <h2 id="header_contents">하하하</h2>
     <p>(주)엔코아에서 HTML5, CSS3, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
     <hr>
   </header><!-- header end -->
@@ -51,8 +25,8 @@
       <!-- 개인정보, 지원분야, 지원동기 입력 폼 end -->
       <form action="" method="post">
         <!-- 개인정보 입력 -->
-        <p><b>개인정보</b></p>
-        <label for="name">이름 : <input type="text" id="name"></label><br><br>
+        <p class="fontstyle"><b>개인정보</b></p>
+        <label for="name" class="fontstyle">이름 : <input type="text" id="name"></label><br><br>
         <label for="tel">연락처 : <input type="tel" id="tel"></label><br><br><br>
 
         <!-- 지원분야 선택 -->

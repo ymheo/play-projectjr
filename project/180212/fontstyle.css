@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+h1{
+  font-size: 10px;
+}
+
+h2{
+  font-size: 100px;
+}
+
+.fontstyle{
+  font-size: 30px;
+  color:red;
+}
+
+#header_contents{
+  font-size: 30px;
+}
