@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* logo */
+.site h1 a{
+  color:#000;
+  text-decoration:none; /* a링크의 밑줄 제거 */
+}
+
+.site h1, .site p{
+  margin:0; /* h1과 p에 있는 마진값 제거 */
+}
+
+.site h1{
+  font-size:30px;
+}
+
+.site p{
+  font-size:12px;
+}
+
+/* section, article */
+.story h1, .story p{
+  margin-top:0px;
+  margin-bottom:20px;
+}
+
+.story h1{
+  font-size:36px;
+}
+
+/* navigation */
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li a{
+  display: block;
+  padding: 5px;
+  color:#000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  background-color: #eee;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.hello{
+  font-size: 100px;
+  color:green;
+}
+
+.fontstyle{
+  font-size: 30px;
+  color:red;
+}
+
+#header_contents{
+  font-size: 30px;
+}

@@ -1,6 +1,42 @@
 @charset "UTF-8";
+<<<<<<< HEAD
   /* 주석을 다세요 */
   h1{
     font-size:100px;
     color:red;
+=======
+
+/* 주석을 다세요 */
+h1{
+  font-size : 100px;
+  color : red;
+}
+
+
+    h1{
+      text-align: center; /* 글자의 위치를 가운데로 정렬 */
+    }
+
+    header>p{
+      text-align: center; /* 글자의 위치를 가운데로 정렬 */
+    }
+
+    ul{
+      list-style: none; /* li 태그의 bullet 기호를 없애줌 */
+    }
+
+    table{
+      border-collapse: collapse; /* 테이블의 이중선을 없애줌 */
+      width:50%; /* 가로 크기를 화면의 50%로 맞추어줌 */
+      text-align: center; /* 글자의 위치를 가운데로 정렬 */
+    }
+
+    table, th, td{
+      border : 1px solid black; /* 테이블의 테두리선을 1px, 직선, 검은색으로 그림 */
+    }
+
+    thead{
+      background-color: green; /* thead 태그 내 배경을 초록색으로 변경 */
+      color:white; /* 글자색을 흰색으로 변경 */
+>>>>>>> 42ee3b0693b8042ebe4da5f6c1f1210236ebe1c6
     }
