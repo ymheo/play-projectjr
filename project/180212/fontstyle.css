@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
-
-h1{
-  font-size: 10px;
-}
-
-h2{
+.hello{
   font-size: 100px;
+  color:green;
 }
 
 .fontstyle{
